@@ -1,0 +1,26 @@
+- id: flake8
+  name: flake8
+  entry: flake8
+  language: python
+  types: [python]
+  require_serial: true
+- id: black
+  name: black
+  entry: black -l100
+  language: python
+  language_version: python3
+  types: [python]
+  require_serial: true
+- id: isort
+  name: isort
+  entry: isort -y
+  language: python
+  language_version: python3
+  types: [python]
+  require_serial: true
+- id: detect-private-key
+  name: detect-private-key
+  entry: detect-private-key
+  language: python
+  types: [text]
+  require_serial: true
