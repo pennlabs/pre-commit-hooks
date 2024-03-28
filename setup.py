@@ -7,10 +7,11 @@ setup(
     packages=find_packages(exclude=["tests"]),
     entry_points={"console_scripts": ["detect-private-key=custom_hooks.detect_private_key:main"]},
     install_requires=[
-        "isort==4.3.21",
-        "black==19.3b0",
-        "flake8==3.7.9",
-        "flake8-isort==2.7.0",
-        "flake8-quotes==2.1.1",
+        "isort==5.13.2",
+        "black==19.10b0",
+        "flake8==6.1.0",
+        "flake8-isort==6.1.0",
+        "flake8-quotes==3.3.2",
+        "click==8.0.2"
     ],
 )
