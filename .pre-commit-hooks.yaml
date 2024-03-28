@@ -18,12 +18,6 @@
   language_version: python3
   types: [python]
   require_serial: true
-- id: test-rev
-  name: test-rev
-  entry: exit 1
-  language: system
-  types: [text]
-  require_serial: true
 - id: detect-private-key
   name: detect-private-key
   entry: detect-private-key
