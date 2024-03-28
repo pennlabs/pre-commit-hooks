@@ -20,7 +20,7 @@
   require_serial: true
 - id: test-rev
   name: test-rev
-  entry: echo "test-rev"
+  entry: exit 1
   language: system
   types: [text]
   require_serial: true
