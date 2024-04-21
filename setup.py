@@ -8,7 +8,7 @@ setup(
     entry_points={"console_scripts": ["detect-private-key=custom_hooks.detect_private_key:main"]},
     install_requires=[
         "isort==5.13.2",
-        "black==19.10b0",
+        "black==24.4.0",
         "flake8==6.1.0",
         "flake8-isort==6.1.0",
         "flake8-quotes==3.3.2",
